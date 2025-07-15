@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Walk Home Safely</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🚶‍♀️ Walk Home Safely</h1>
+
+      <div class="button-group">
+        <button id="startTracking">Start Walk</button>
+        <button id="stopTracking" disabled>Stop Walk</button>
+        <button id="sendSOS" class="sos-btn">Send SOS</button>
+      </div>
+
+      <div id="status" class="status-text"></div>
+      <p id="location">📍 Location: Not started</p>
+      <p id="network">📶 Network: Checking...</p>
+      <div id="map"></div>
+      <h2>Check-ins</h2>
+      <div id="checkins"></div>
+    </div>
+
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database-compat.js"></script>
+    <!-- Leaflet -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <!-- Your script -->
+    <script src="script.js"></script>
+  </body>
+</html>
