@@ -41,3 +41,6 @@ When a walk starts, a **unique session ID** is generated.
 - Example link: `https://yourdomain.com/track.html?sessionId=abc123`
 - Friends visiting this link can see your location live on a map.
 
+--
+<img src="view/pic1" alt="App screenshot" width="400"/>
+
