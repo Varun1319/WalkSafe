@@ -28,16 +28,16 @@ A modern web application that helps you walk home safely by sharing your live lo
 
 ### User flow
 
-1️⃣ User clicks **Start Walk** — app starts tracking location and shows a **shareable link**.  
-2️⃣ Family/friends open the link (viewer page) to see live location updates.  
-3️⃣ User can click **Send SOS** to highlight an emergency and generate a badge.  
-4️⃣ User stops the walk — app shows last known location and route.  
+- User clicks Start Walk - app starts tracking location and shows a shareable link.  
+- Family/friends open the link (viewer page) to see live location updates.  
+- User can click Send SOS to highlight an emergency and generate a badge.  
+- User stops the walk, app shows last known location and route.  
 
 ---
 
 ## Shareable tracking link
 
-When a walk starts, a **unique session ID** is generated.  
+When a walk starts, a unique session ID is generated.  
 - Example link: `https://yourdomain.com/track.html?sessionId=abc123`
 - Friends visiting this link can see your location live on a map.
 
