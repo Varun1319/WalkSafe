@@ -46,9 +46,9 @@ function startTracking() {
   // Generate random session ID
   sessionId = Math.random().toString(36).substring(2, 10);
 
-  // Create shareable link
-  const shareLink = `${window.location.origin}/track.html?sessionId=${sessionId}`;
-  alert(`Share this link with family: ${shareLink}`);
+  // // Create shareable link
+  // const shareLink = `${window.location.origin}/track.html?sessionId=${sessionId}`;
+  // alert(`Share this link with family: ${shareLink}`);
 
   // Clear previous check-ins and status
   checkinsEl.innerHTML = "";
