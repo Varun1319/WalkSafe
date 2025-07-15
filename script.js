@@ -153,7 +153,7 @@ function updateNetworkStatus() {
   networkEl.textContent = `📶 Network: ${type}`;
 
   if (type === "slow-2g" || type === "2g") {
-    alert("⚠️ Slow connection detected! Inform your contact.");
+    alert("⚠ Slow connection detected! Inform your contact.");
   }
 }
 
