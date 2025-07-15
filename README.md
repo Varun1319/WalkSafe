@@ -43,7 +43,7 @@ When a walk starts, a **unique session ID** is generated.
 
 ---
 
-<img src="view/pic1.png" alt="App screenshot" width="400"/> <img src="view/pic2.png" alt="App screenshot" width="300"/>
+<img src="view/pic1.png" alt="App screenshot" width="400"/> <img src="view/pic2.png" alt="App screenshot" width="400"/>
 <img src="view/pic3.png" alt="App screenshot" width="400"/>
 
 
