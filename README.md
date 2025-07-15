@@ -6,12 +6,12 @@ A modern web application that helps you walk home safely by sharing your live lo
 
 ## Features
 
-✅ Real-time location tracking on a map  
-✅ Shareable tracking link for family & friends to view your live location  
-✅ "Send SOS" feature to alert contacts and generate a downloadable SOS badge  
-✅ Check-ins log with smooth fade-in animations  
-✅ Network connectivity status monitoring  
-✅ Last known location shown when walk stops  
+ - Real-time location tracking on a map  
+ - Shareable tracking link for family & friends to view your live location  
+ - "Send SOS" feature to alert contacts and generate a downloadable SOS badge  
+ - Check-ins log with smooth fade-in animations  
+ - Network connectivity status monitoring  
+ - Last known location shown when walk stops  
 
 ---
 
